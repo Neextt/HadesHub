@@ -1,7 +1,7 @@
 settings:
   # Aqui será o IP do servidor 'BungeeCord' exemplo: us.redehades.com:25565.
-  network: '127.0.0.1:25565'
 
+  network: '127.0.0.1:25565'
   #Aqui é a localização do Spawn setado.
   spawn: '{"world":"world", "x": 0.0, "y": 4.0, "z": 0.0, "pitch": 0.0, "yaw": 0.0}'
 
@@ -31,7 +31,7 @@ settings:
     lines:
       - '§1'
       - '§r  Grupo: {prefix}'
-      - '§f  Online: §b${network::online}'
+      - '§f  Online: §b${network_online}'
       - '§f'
       - '§f  Hub: §7#1'
       - '§f  Cash: §b0'
