@@ -1,10 +1,8 @@
 settings:
   # Aqui será o IP do servidor 'BungeeCord' exemplo: us.redehades.com:25565.
-
   network: '127.0.0.1:25565'
   #Aqui é a localização do Spawn setado.
-  spawn: '{"world":"world", "x": 0.0, "y": 4.0, "z": 0.0, "pitch": 0.0, "yaw": 0.0}'
-
+  spawn: ''
   #Aqui será o 'link' do shop do seu servidor, exemplo: loja.redehades.com
   shop_url: 'loja.redehades.com'
   tablist:
