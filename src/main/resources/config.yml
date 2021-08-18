@@ -26,7 +26,7 @@ settings:
     # Delay em segundos
     delay: 0
     permission_cooldown: 'chat.cooldown'
-  scoreboard:
+  scoreboards:
     titles: '§4§lHADES'
     lines:
       - '§1'
