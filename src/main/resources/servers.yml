@@ -1,0 +1,35 @@
+servers:
+  legend:
+    name: 'Factions Legend'
+    address: '127.0.0.1'
+    port: 25565
+    slots: 300
+    slot: 11
+    icon:
+      id: 46
+      data: 0
+      display_name: '§bFactions Legend §b§lNOVO!'
+      lore:
+        - ''
+        - ' §7Convoque sua facção, construa sua base,'
+        - ' §7defenda-se de invasões adversárias,'
+        - ' §7e realize suas própias invasões.'
+        - ''
+        - '§eClique para entrar!'
+  rankup:
+    name: 'RankUP Heads'
+    address: '127.0.0.1'
+    port: 25565
+    slots: 300
+    slot: 13
+    icon:
+      id: 278
+      data: 0
+      display_name: '§eRankUP Heads §e§lNOVO!'
+      lore:
+        - ''
+        - ' §7Um dos maiores sucessos da comunidade disponível,'
+        - ' §7agora na Rede Hades, minere, evolua,'
+        - ' §7crie seu clan, e domine o universo do RankUP.'
+        - ''
+        - '§aClique para entrar'
