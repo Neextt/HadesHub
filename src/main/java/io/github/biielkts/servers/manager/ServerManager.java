@@ -3,10 +3,12 @@ package io.github.biielkts.servers.manager;
 import com.google.common.collect.Lists;
 import io.github.biielkts.Main;
 import io.github.biielkts.servers.data.Server;
+import io.github.biielkts.utils.FileUtils;
 import io.github.biielkts.utils.inventory.Item;
 import org.bukkit.Material;
 import org.bukkit.configuration.ConfigurationSection;
 
+import java.io.File;
 import java.util.List;
 
 public class ServerManager {
@@ -16,7 +18,7 @@ public class ServerManager {
     public ServerManager() {
         ConfigurationSection configurationSection = Main.getInstance().getConfig().getConfigurationSection("servers");
 
-        String networkInfo = Main.getInstance().getConfig().getString("settings.network");
+        String networkInfo = Main.getInstance().getConfig().getString("network");
 
         String[] networkData = networkInfo.split(":");
 
@@ -38,7 +40,7 @@ public class ServerManager {
         configurationSection.getKeys(false).forEach(key -> {
             String name = configurationSection.getString(key + ".name");
             String address = configurationSection.getString(key + ".address");
-            String displayName = configurationSection.getString(key + ".icon.display_name");
+            String displayName = configurationSection.getString(key + ".icon.name");
             Integer slot = configurationSection.getInt(key + ".slot");
             Integer slots = configurationSection.getInt(key + ".slots");
             Integer port = configurationSection.getInt(key + ".port");

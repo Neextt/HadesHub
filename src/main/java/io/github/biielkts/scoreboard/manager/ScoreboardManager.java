@@ -67,7 +67,7 @@ public class ScoreboardManager {
     }
 
     private static void setLines(Scoreboard scoreboard) {
-        ConfigurationSection configurationSection = Main.getInstance().getConfig().getConfigurationSection("settings.scoreboard");
+        ConfigurationSection configurationSection = Main.getInstance().getConfig().getConfigurationSection("settings.scoreboards");
 
         List<String> lines = ScoreboardManager.getLines();
 
@@ -99,7 +99,7 @@ public class ScoreboardManager {
     private static List<String> getLines() {
         List<String> lines = Lists.newArrayList();
 
-        ConfigurationSection configurationSection = Main.getInstance().getConfig().getConfigurationSection("settings.scoreboard");
+        ConfigurationSection configurationSection = Main.getInstance().getConfig().getConfigurationSection("settings.scoreboards");
 
         List<String> lines1 = configurationSection.getStringList("lines");
 
@@ -115,7 +115,7 @@ public class ScoreboardManager {
                     line = StringUtils.replaceEach(
                             line,
                             new String[]{
-                                    "${" + serverName + "::online}"
+                                    "${" + serverName + "_online}"
                             },
                             new String[]{
                                     (
@@ -123,7 +123,7 @@ public class ScoreboardManager {
                                             ?
                                                     server.getPlayerCount().toString()
                                             :
-                                                    "§cOffline"
+                                                    "§cOff."
                                     )
                             }
                     );

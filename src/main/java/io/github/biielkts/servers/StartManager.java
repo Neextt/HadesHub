@@ -10,7 +10,7 @@ import io.github.biielkts.pvp.manager.CombatPlayerManager;
 import io.github.biielkts.scoreboard.manager.ScoreboardManager;
 import io.github.biielkts.scoreboard.runnable.ScoreboardRefreshRunnable;
 import io.github.biielkts.servers.manager.ServerManager;
-import io.github.biielkts.servers.runnable.ServerRefreshRunnable;
+import io.github.biielkts.servers.util.ServerRefreshRunnable;
 import io.github.biielkts.tablist.TablistManager;
 import io.github.biielkts.tagger.managers.TagsManager;
 import io.github.biielkts.utils.ClassGetter;
