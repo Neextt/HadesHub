@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="minecraft" name="Minecraft">
+      <configuration>
+        <autoDetectTypes>
+          <platformType>SPIGOT</platformType>
+        </autoDetectTypes>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../rf.hub-master/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../rf.hub-master/target/test-classes" />
+    <content url="file://$MODULE_DIR$/../rf.hub-master">
+      <sourceFolder url="file://$MODULE_DIR$/../rf.hub-master/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../rf.hub-master/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../rf.hub-master/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../rf.hub-master/${project.build.directory}/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../rf.hub-master/${project.build.directory}/test-classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../rf.hub-master/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="spigot" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.tehkode:PermissionsEx:1.23.4" level="project" />
+    <orderEntry type="library" name="Maven: org.spigotmc:Spigot:1.8.8-R0.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.comphenix.protocol:ProtocolLib:4.4.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.comphenix.protocol:ProtocolLib-API:4.4.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: cglib:cglib-nodep:3.2.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.comphenix.executors:BukkitExecutors:1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="PermissionsEx" level="project" />
+  </component>
+</module>

@@ -1,0 +1,74 @@
+settings:
+  # Aqui será o IP do servidor 'BungeeCord' exemplo: us.redehades.com:25565.
+  network: '127.0.0.1:25565'
+
+  #Aqui é a localização do Spawn setado.
+  spawn: '{"world":"world", "x": 0.0, "y": 4.0, "z": 0.0, "pitch": 0.0, "yaw": 0.0}'
+
+  #Aqui será o 'link' do shop do seu servidor, exemplo: loja.redehades.com
+  shop_url: 'loja.redehades.com'
+  tablist:
+    header:
+      - ''
+      - '§6§lREDE HADES'
+      - '    §floja.redehades.com'
+    footer:
+      - ''
+      - '§eFórum: §fredehades.com/forum'
+      - '§eDiscord: §fredehades.com/discord'
+      - ''
+      - '§4Obtenha vantagens acessando: §floja.redehades.com'
+      - ''
+  broadcast: '{prefix} §6entrou neste lobby!'
+  chat:
+    format: '{prefix}{display}§f: {message}'
+    permission: 'hades.chat.say'
+    # Delay em segundos
+    delay: 0
+    permission_cooldown: 'chat.cooldown'
+  scoreboard:
+    titles: '§4§lHADES'
+    lines:
+      - '§1'
+      - '§r  Grupo: {prefix}'
+      - '§f  Online: §b${network::online}'
+      - '§f'
+      - '§f  Hub: §7#1'
+      - '§f  Cash: §b0'
+      - '§4'
+      type: '§e  loja.redehades.com'
+servers:
+  legend:
+    display_name: 'Factions Legend'
+    address: '127.0.0.1'
+    port: 25565
+    slots: 300
+    slot: 11
+    icon:
+      id: 46
+      data: 0
+      display_name: '§bFactions Legend §b§lNOVO!'
+      lore:
+        - ''
+        - ' §7Convoque sua facção, construa sua base,'
+        - ' §7defenda-se de invasões adversárias,'
+        - ' §7e realize suas própias invasões.'
+        - ''
+        - '§eClique para entrar!'
+  rankup:
+    display_name: 'RankUP Heads'
+    address: '127.0.0.1'
+    port: 25565
+    slots: 300
+    slot: 13
+    icon:
+      id: 278
+      data: 0
+      display_name: '§eRankUP Heads §e§lNOVO!'
+      lore:
+        - ''
+        - ' §7Convoque seu clan, conquiste seus'
+        - ' §7spawners, finalize todos ranks'
+        - ' §7e domine o servidor junto com seu clan!'
+        - ''
+        - '§aClique para entrar'

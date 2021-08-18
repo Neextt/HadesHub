@@ -1,0 +1,12 @@
+name: HadesHub
+main: io.github.biielkts.Main
+version: 1.0
+depend: [PermissionsEx, nLogin]
+
+commands:
+  gamemode:
+  fly:
+  ping:
+  setspawn:
+  teleport:
+  tell:
